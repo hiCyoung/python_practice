@@ -22,3 +22,22 @@ print(isinstance(12,str))
 print(isinstance(12,(str,int)))  #判断12的类型是不是在元组内
 print(isinstance(a(),str))
 print(isinstance(b(),int))
+
+#获取长度
+print(len({"aaa":1,"bbb":2}))
+
+#幂函数
+print(pow(2,4))  #等同于2**4
+
+#返回某个范围内的连续证书列表
+print(list(range(1,10,2)))
+print(range(1,10,2)[1])
+
+#四舍五入（后一参数表示保留几位小数）
+print(round(3.1415926,3))
+
+#类型转换
+print(chr(97))
+print(int(12.3))
+print(list("hello"))
+print(tuple("hello"))
