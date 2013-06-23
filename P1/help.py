@@ -1,2 +1,2 @@
 __author__ = 'hiCyoung'
-help(dict)
+help(generator)

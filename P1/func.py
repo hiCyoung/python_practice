@@ -53,6 +53,7 @@ def gn():
         yield  i*2
 
 g=gn()
+print(type(g))
 print(g.__next__())
 print(g.__next__())
 print(g.__next__())
